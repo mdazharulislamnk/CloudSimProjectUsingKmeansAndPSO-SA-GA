@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CloudSim Simulation Report</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96c93d);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+h2 {
+    color: #ffffff;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #3498db;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+p {
+    line-height: 1.6;
+    margin: 5px 0;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.summary {
+    font-weight: bold;
+    color: #2c3e50;
+}
+</style>
+</head>
+<body>
+<h1>CloudSim Simulation Report</h1>
+<p>Initialising...</p>
+<h2>VM Clusters and K-Means</h2>
+<p>=== VM Clusters (K-Means) ===</p>
+<p>Cluster 0: 0, 9</p>
+<p>Cluster 1: 1, 6</p>
+<p>Cluster 2: 2, 5</p>
+<p>Cluster 3: 3, 7, 8</p>
+<p>Cluster 4: 4</p>
+<h2>MIPS Assigned Host Allocation</h2>
+<table>
+<tr><th>VM ID</th><th>MIPS</th><th>Assigned Host</th></tr>
+<tr><td>0</td><td>392.0</td><td>1</td></tr>
+<tr><td>1</td><td>351.0</td><td>24</td></tr>
+<tr><td>2</td><td>409.0</td><td>0</td></tr>
+<tr><td>3</td><td>326.0</td><td>6</td></tr>
+<tr><td>4</td><td>354.0</td><td>4</td></tr>
+<tr><td>5</td><td>410.0</td><td>19</td></tr>
+<tr><td>6</td><td>345.0</td><td>5</td></tr>
+<tr><td>7</td><td>277.0</td><td>13</td></tr>
+<tr><td>8</td><td>320.0</td><td>9</td></tr>
+<tr><td>9</td><td>377.0</td><td>10</td></tr>
+</table>
+<h2>VM Allocation Details</h2>
+<p>VM #1 allocated to Host #24</p>
+<h2>VM Allocation Details</h2>
+<p>VM #2 allocated to Host #0</p>
+<h2>VM Allocation Details</h2>
+<p>VM #3 allocated to Host #6</p>
+<h2>VM Allocation Details</h2>
+<p>VM #4 allocated to Host #4</p>
+<h2>VM Allocation Details</h2>
+<p>VM #5 allocated to Host #19</p>
+<h2>VM Allocation Details</h2>
+<p>VM #6 allocated to Host #5</p>
+<h2>VM Allocation Details</h2>
+<p>VM #7 allocated to Host #13</p>
+<h2>VM Allocation Details</h2>
+<p>VM #8 allocated to Host #9</p>
+<h2>VM Allocation Details</h2>
+<p>VM #9 allocated to Host #10</p>
+<p>Starting CloudSim version 3.0</p>
+<h2>Simulation Process</h2>
+<p>Datacenter is starting...</p>
+<h2>Simulation Process</h2>
+<p>Broker is starting...</p>
+<p>Entities started.</p>
+<h2>Simulation Process</h2>
+<p>0.0: Broker: Cloud Resource List received with 1 resource(s)</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #0 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #1 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #2 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #3 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #4 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #5 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #6 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #7 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #8 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.0: Broker: Trying to Create VM #9 in Datacenter</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #0 has been created in Datacenter #2, Host #0</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #1 has been created in Datacenter #2, Host #1</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #2 has been created in Datacenter #2, Host #2</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #3 has been created in Datacenter #2, Host #3</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #4 has been created in Datacenter #2, Host #4</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #5 has been created in Datacenter #2, Host #5</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #6 has been created in Datacenter #2, Host #6</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #7 has been created in Datacenter #2, Host #7</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #8 has been created in Datacenter #2, Host #8</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: VM #9 has been created in Datacenter #2, Host #9</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 0 to VM #0</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 1 to VM #1</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 2 to VM #2</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 3 to VM #3</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 4 to VM #4</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 5 to VM #5</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 6 to VM #6</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 7 to VM #7</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 8 to VM #8</p>
+<h2>VM Allocation Details</h2>
+<p>0.1: Broker: Sending cloudlet 9 to VM #9</p>
+<h2>Simulation Process</h2>
+<p>128.4469387755102: Broker: Cloudlet 0 received</p>
+<h2>Simulation Process</h2>
+<p>131.30023950900653: Broker: Cloudlet 2 received</p>
+<h2>Simulation Process</h2>
+<p>150.28560536266508: Broker: Cloudlet 5 received</p>
+<h2>Simulation Process</h2>
+<p>162.8262303626651: Broker: Cloudlet 8 received</p>
+<h2>Simulation Process</h2>
+<p>173.23206590643167: Broker: Cloudlet 9 received</p>
+<h2>Simulation Process</h2>
+<p>174.92980601942602: Broker: Cloudlet 4 received</p>
+<h2>Simulation Process</h2>
+<p>187.066037903484: Broker: Cloudlet 6 received</p>
+<h2>Simulation Process</h2>
+<p>187.93213476958084: Broker: Cloudlet 1 received</p>
+<h2>Simulation Process</h2>
+<p>210.73274826651337: Broker: Cloudlet 3 received</p>
+<h2>Simulation Process</h2>
+<p>228.4836507935892: Broker: Cloudlet 7 received</p>
+<h2>Simulation Process</h2>
+<p>228.4836507935892: Broker: All Cloudlets executed. Finishing...</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #0</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #1</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #2</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #3</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #4</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #5</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #6</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #7</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #8</p>
+<h2>VM Allocation Details</h2>
+<p>228.4836507935892: Broker: Destroying VM #9</p>
+<h2>Simulation Process</h2>
+<p>Broker is shutting down...</p>
+<h2>Simulation Process</h2>
+<p>Simulation: No more future events</p>
+<p>CloudInformationService: Notify all CloudSim entities for shutting down.</p>
+<h2>Simulation Process</h2>
+<p>Datacenter is shutting down...</p>
+<h2>Simulation Process</h2>
+<p>Broker is shutting down...</p>
+<p>Simulation completed.</p>
+<p>Simulation completed.</p>
+<h2>Cloudlet Results</h2>
+<table>
+<tr><th>CloudletID</th><th>STATUS</th><th>VMID</th><th>Time</th><th>Start</th><th>Finish</th></tr>
+<tr><td>0</td><td>SUCCESS</td><td>0</td><td>128.35</td><td>0.10</td><td>128.45</td></tr>
+<tr><td>2</td><td>SUCCESS</td><td>2</td><td>131.20</td><td>0.10</td><td>131.30</td></tr>
+<tr><td>5</td><td>SUCCESS</td><td>5</td><td>150.19</td><td>0.10</td><td>150.29</td></tr>
+<tr><td>8</td><td>SUCCESS</td><td>8</td><td>162.73</td><td>0.10</td><td>162.83</td></tr>
+<tr><td>9</td><td>SUCCESS</td><td>9</td><td>173.13</td><td>0.10</td><td>173.23</td></tr>
+<tr><td>4</td><td>SUCCESS</td><td>4</td><td>174.83</td><td>0.10</td><td>174.93</td></tr>
+<tr><td>6</td><td>SUCCESS</td><td>6</td><td>186.97</td><td>0.10</td><td>187.07</td></tr>
+<tr><td>1</td><td>SUCCESS</td><td>1</td><td>187.83</td><td>0.10</td><td>187.93</td></tr>
+<tr><td>3</td><td>SUCCESS</td><td>3</td><td>210.63</td><td>0.10</td><td>210.73</td></tr>
+<tr><td>7</td><td>SUCCESS</td><td>7</td><td>228.38</td><td>0.10</td><td>228.48</td></tr>
+</table>
+<h2>=== Simulation Summary ===</h2>
+<p class="summary">Total successful cloudlets: 10</p>
+<h2>=== Energy and Cost Summary ===</h2>
+<p class="summary">Baseline energy (all hosts max power) (kWh): 0.761612</p>
+<p>Actual energy consumed (kWh): 0.198036</p>
+<p>Total energy saved (kWh): 0.563576</p>
+<p>Simulation time (hours): 0.06</p>
+<p>Efficiency (%): 74.00%</p>
+<p>Baseline cost (USD): $0.0914</p>
+<p>Actual cost (USD): $0.0238</p>
+<p>Total cost saved (USD): $0.0676</p>
+<h2>=== Detailed Simulation Metrics ===</h2>
+<p class="summary">Average Cloudlet Execution Time (s): 173.424</p>
+<p>Cloudlet Throughput (cloudlets/sec): 0.04377</p>
+<p>Cloudlet Failure Count: 0</p>
+<p>CPU Load Standard Deviation: 0.0206</p>
+<p>Number of Overloaded Hosts (>90% utilization): 0</p>
+<p>Energy consumed per successful Cloudlet (kWh): 0.019804</p>
+<p>Energy consumed per VM (kWh): 0.019804</p>
+<p>Cost per Host (USD): $0.0008</p>
+<p>Cost per VM (USD): $0.0024</p>
+<p>Simulation Runtime (Wall Clock, ms): 8</p>
+</body>
+</html>
